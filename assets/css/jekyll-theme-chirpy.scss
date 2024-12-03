@@ -67,8 +67,6 @@ header .post-meta span+div::before { content: "•"; padding-left: .25rem; paddi
   box-shadow: none;
 
   &::before {
-    @extend %rounded;
-
     content: '';
     width: 100%;
     height: 100%;
