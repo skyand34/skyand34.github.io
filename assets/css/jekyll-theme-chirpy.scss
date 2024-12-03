@@ -30,7 +30,7 @@ header .post-desc, #toc-bar .label, #search-results a, h1, h2, h3, h4, h5 { font
 #sidebar .sidebar-bottom #mode-toggle:not(:focus-visible), #sidebar .sidebar-bottom a:not(:focus-visible) { box-shadow: none; }
 #sidebar ul li.nav-item a.nav-link { font-weight: 400; }
 #sidebar ul li.nav-item a.nav-link:hover { background-color: #333035; }
-#sidebar ul li.nav-item.active .nav-link { color: rgb(255, 255, 255, 0.95); background-color: #333035; }
+#sidebar ul li.nav-item.active .nav-link { color: rgb(255, 255, 255, 1); background-color: #333035; }
 #post-list .card-wrapper:not(:last-child) {
   margin-bottom: 0;
 }
