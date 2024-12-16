@@ -42,7 +42,7 @@ published: false
         </div>
         <div class="para-cntnt">
           <figure class="post-figure">
-            <img src="/assets/img/posts/클러스터링.png" alt="클러스터링">
+            <img src="/assets/img/posts/군집분석.png" alt="클러스터링">
 <!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
