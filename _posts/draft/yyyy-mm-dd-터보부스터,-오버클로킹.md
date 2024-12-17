@@ -43,7 +43,7 @@ published: false
         <div class="para-cntnt">
           <figure class="post-figure">
             <img src="/assets/img/posts/터보부스터,-오버클로킹.png" alt="터보부스터, 오버클로킹">
-<!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
+<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
       </div>

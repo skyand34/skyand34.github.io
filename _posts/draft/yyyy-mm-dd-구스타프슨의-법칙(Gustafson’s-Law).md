@@ -43,7 +43,7 @@ published: false
         <div class="para-cntnt">
           <figure class="post-figure">
             <img src="/assets/img/posts/구스타프슨의-법칙(Gustafson’s-Law).png" alt="구스타프슨의 법칙(Gustafson’s Law)">
-<!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
+<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
       </div>

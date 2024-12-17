@@ -43,7 +43,7 @@ published: false
         <div class="para-cntnt">
           <figure class="post-figure">
             <img src="/assets/img/posts/CMP,-클라우드-관리-플랫폼.png" alt="CMP, 클라우드 관리 플랫폼">
-<!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
+<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
       </div>

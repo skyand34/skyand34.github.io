@@ -43,7 +43,7 @@ published: false
         <div class="para-cntnt">
           <figure class="post-figure">
             <img src="/assets/img/posts/캐시-주소매핑.png" alt="캐시 주소매핑">
-<!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
+<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
       </div>

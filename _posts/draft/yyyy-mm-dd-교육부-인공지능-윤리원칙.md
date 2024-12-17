@@ -43,7 +43,7 @@ published: false
         <div class="para-cntnt">
           <figure class="post-figure">
             <img src="/assets/img/posts/교육부-인공지능-윤리원칙.png" alt="교육부 인공지능 윤리원칙">
-<!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
+<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
       </div>

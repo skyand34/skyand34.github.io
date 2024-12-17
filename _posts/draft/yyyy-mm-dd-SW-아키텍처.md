@@ -42,8 +42,8 @@ published: false
         </div>
         <div class="para-cntnt">
           <figure class="post-figure">
-            <img src="/assets/img/posts/SW-아키텍처.png" alt="SW 아키텍처">
-<!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
+            <img src="/assets/img/posts/SW아키텍처.png" alt="SW 아키텍처">
+<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
       </div>

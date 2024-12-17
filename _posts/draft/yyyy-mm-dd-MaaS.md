@@ -36,7 +36,7 @@ published: false
         <div class="para-cntnt">
           <figure class="post-figure">
             <img src="/assets/img/posts/MaaS.png" alt="MaaS">
-            <figcaption>Source: https://www.yna.co.kr/view/GYH20230407000900044</figcaption>
+            <figcaption>https://www.yna.co.kr/view/GYH20230407000900044</figcaption>
           </figure>
         </div>
       </div>
