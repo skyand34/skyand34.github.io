@@ -88,6 +88,7 @@ header .post-meta span+div::before { content: "•"; padding-left: .25rem; paddi
 .post-figure > a.popup > img { padding: 0.5rem; max-height: 350px; }
 .post-figure > figcaption { text-align: center; font-size: 0.85rem; color: #757575; }
 .post-table { width: 100%; }
+.post-table img { max-height: 450px; }
 
 .para { margin-bottom: 2.5rem; }
 .post-wrap .para:last-child { margin-bottom: 0; }
