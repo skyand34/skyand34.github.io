@@ -45,6 +45,7 @@ header .post-meta span+div::before { content: "•"; padding-left: .25rem; paddi
 .table-wrapper > table tbody tr:nth-child(2n) { background-color: transparent; }
 .table-wrapper > table tbody tr:nth-child(2n+1) { background-color: transparent; }
 .table-wrapper > table tbody tr td, .table-wrapper > table thead th { white-space: wrap; border: 1px solid #c2c6cc; }
+.table-wrapper > table tbody tr td:nth-child(1) { white-space: nowrap; }
 .post-navigation > a.btn.btn-outline-primary:not(.disabled):hover { background-color: #2a408e; border-color: #2a408e !important; }
 
 #post-list {
