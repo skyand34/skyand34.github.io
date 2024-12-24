@@ -1,9 +1,9 @@
 ---
 title: 프로젝트 범위관리
 #author: 
-date: 2023-09-27 00:00:10 +0800
+date: 2024-08-29 00:00:10 +0800
 categories: [PE, 프로젝트관리]
-published: false
+published: true
 #tags: []
 #pin: false
 #math: false
@@ -17,44 +17,37 @@ published: false
 <div class="post-wrap">
   <div class="para">
     <div class="para-title">
-      I. 프로젝트의 범위를 관리하기 위한, 프로젝트 범위관리
+      I. 수행범위 관리를 위한, 프로젝트 범위관리의 정의
     </div>
     <div class="para-cntnt">
-      <div class="para">
-        <div class="para-title">
-          가. 프로젝트 범위관리의 정의
-        </div>
-        <div class="para-cntnt">
-            요구사항을 분석하여 프로젝트 범위를 결정하고, 각 단계별 작업활동을 구체화하는 지식영역
-        </div>
-      </div>
+      - 요구사항을 분석하여 프로젝트 <span class="post-kwd">범위를 결정하고, 각 단계별 작업활동을 구체화</span>하는 지식영역
     </div>
   </div>
   
   <div class="para">
     <div class="para-title">
-      II. 프로젝트 범위관리
+      II. 프로젝트 범위관리의 프로세스와 상세내용
     </div>
     <div class="para-cntnt">
       <div class="para">
         <div class="para-title">
-          가. 프로젝트 범위관리의 아키텍처
+          가. 프로젝트 범위관리의 프로세스
         </div>
         <div class="para-cntnt">
           <figure class="post-figure">
-            <img src="/assets/img/posts/프로젝트-범위관리.png" alt="프로젝트 범위관리">
-<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
+            <img src="/assets/img/posts/프로젝트범위관리.png" alt="프로젝트 범위관리">
+            <figcaption>Hand made</figcaption>
           </figure>
         </div>
       </div>
       <div class="para">
         <div class="para-title">
-          나. 프로젝트 범위관리의 구성요소
+          나. 프로젝트 범위관리의 상세내용
         </div>
         <div class="para-cntnt">
           <table class="post-table">
           </table>
-          프로세스 범요정작확통
+
   범위관리계획수립 - 프로젝트에서 범위관리 절차와 방법 정의 / 범위관리 계획서
   요구사항 수집 - 이해관계자의 요구사항을 수집, 문서화 / 요구사항 문서, 요구사항 추적 매트릭스
   범위 정의 - 제품이나 서비스의 범위 기술서를 개발 / 범위 기술서
