@@ -113,24 +113,26 @@
     {% endif %}
 
     <!-- Web Analytics -->
-    {% for analytics in site.analytics %}
+<!--    {% for analytics in site.analytics %}
       {% capture str %}{{ analytics }}{% endcapture %}
       {% assign platform = str | split: '{' | first %}
       {% if site.analytics[platform].id and site.analytics[platform].id != empty %}
         {% include analytics/{{ platform }}.html %}
       {% endif %}
-    {% endfor %}
+    {% endfor %}-->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSFXFV8XQR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NSFXFV8XQR');
+    </script>
+
   {% endif %}
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSFXFV8XQR"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-NSFXFV8XQR');
-  </script>
 
   {% include metadata-hook.html %}
 </head>
