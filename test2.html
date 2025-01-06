@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P&ID Diagram with d3.js</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #fff;
+    }
+    .node {
+      fill: #4caf50;
+      stroke: #000;
+      stroke-width: 1.5px;
+    }
+    .pipe {
+      fill: none;
+      stroke-width: 3px;
+    }
+    .text {
+      font-size: 12px;
+      fill: #fff;
+      text-anchor: middle;
+    }
+    .label {
+      font-size: 10px;
+      fill: #fff;
+    }
+    .monitor {
+      font-size: 10px;
+      fill: #fff;
+    }
+  </style>
+</head>
+<body>
+  <svg id="diagram" width="1200" height="800" style="border: 1px solid black;"></svg>
+
+  <script>
+    const svg = d3.select("#diagram");
+
+    // Node data (equipment)
+    const nodes = [
+      { id: "MHWT", x: 200, y: 100, label: "MHWT", type: "tank" },
+      { id: "ME-01", x: 400, y: 300, label: "ME-01", type: "equipment" },
+      { id: "MPHE-01", x: 700, y: 200, label: "MPHE-01", type: "heat-exchanger" },
+      { id: "MRM", x: 500, y: 400, label: "MRM", type: "separator" },
+      { id: "MHT", x: 800, y: 500, label: "MHT", type: "tank" },
+    ];
+
+    // Pipe data (connections)
+    const pipes = [
+      { source: "MHWT", target: "ME-01", color: "#ff5722" },
+      { source: "ME-01", target: "MRM", color: "#2196f3" },
+      { source: "MRM", target: "MPHE-01", color: "#4caf50" },
+      { source: "MRM", target: "MHT", color: "#ffeb3b" },
+    ];
+
+    // Draw pipes (lines)
+    svg.selectAll(".pipe")
+      .data(pipes)
+      .enter()
+      .append("line")
+      .attr("class", "pipe")
+      .attr("x1", d => nodes.find(node => node.id === d.source).x)
+      .attr("y1", d => nodes.find(node => node.id === d.source).y)
+      .attr("x2", d => nodes.find(node => node.id === d.target).x)
+      .attr("y2", d => nodes.find(node => node.id === d.target).y)
+      .attr("stroke", d => d.color);
+
+    // Draw nodes (circles or rectangles based on type)
+    svg.selectAll(".node")
+      .data(nodes)
+      .enter()
+      .append("rect")
+      .attr("class", "node")
+      .attr("x", d => d.x - 30)
+      .attr("y", d => d.y - 20)
+      .attr("width", 60)
+      .attr("height", 40)
+      .attr("fill", d => d.type === "tank" ? "#673ab7" : d.type === "heat-exchanger" ? "#009688" : "#ffc107");
+
+    // Add labels for nodes
+    svg.selectAll(".label")
+      .data(nodes)
+      .enter()
+      .append("text")
+      .attr("class", "text")
+      .attr("x", d => d.x)
+      .attr("y", d => d.y + 5)
+      .text(d => d.label);
+
+    // Add monitors (sample data)
+    const monitors = [
+      { id: "MHWT", x: 200, y: 60, sv: "12.3°C", pv: "12.1°C", op: "25.8%" },
+      { id: "ME-01", x: 400, y: 260, sv: "1.5 KG/hr", pv: "0.6 KG/hr", op: "25.8%" },
+      { id: "MPHE-01", x: 700, y: 160, sv: "1 KG/hr", pv: "1 KG/hr", op: "25.2%" },
+    ];
+
+    // Display monitors
+    svg.selectAll(".monitor")
+      .data(monitors)
+      .enter()
+      .append("text")
+      .attr("class", "monitor")
+      .attr("x", d => d.x)
+      .attr("y", d => d.y)
+      .attr("text-anchor", "middle")
+      .text(d => `SV: ${d.sv}, PV: ${d.pv}, OP: ${d.op}`);
+  </script>
+</body>
+</html>
