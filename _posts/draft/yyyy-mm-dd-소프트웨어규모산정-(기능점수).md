@@ -42,7 +42,7 @@ published: false
         </div>
         <div class="para-cntnt">
           <figure class="post-figure">
-            <img src="/assets/img/posts/소프트웨어규모산정-(기능점수).png" alt="소프트웨어규모산정 (기능점수)">
+            <img src="/assets/img/posts/소프트웨어규모산정(기능점수).png" alt="소프트웨어규모산정 (기능점수)">
 <!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
