@@ -1,9 +1,9 @@
 ---
 title: 디지털 권리장전
 #author: 
-date: 2023-09-27 00:00:10 +0800
-categories: [PE, 필수암기]
-published: false
+date: 2024-11-16 00:00:10 +0800
+categories: [PE, 법/제도]
+published: true
 #tags: []
 #pin: false
 #math: false
@@ -17,43 +17,50 @@ published: false
 <div class="post-wrap">
   <div class="para">
     <div class="para-title">
-      I. 차별없는 디지털환경조성, 디지털권리장전
+      I. 차별없는 디지털환경조성, 디지털권리장전의 정의
     </div>
     <div class="para-cntnt">
-      <div class="para">
-        <div class="para-title">
-          가. 디지털 권리장전의 정의
-        </div>
-        <div class="para-cntnt">
-            디지털 혜택을 조건이나 차별없이 누릴 수 있는 디지털 공동번영사회 원칙의 헌장
-        </div>
-      </div>
+      - 디지털 혜택을 조건이나 차별없이 누릴 수 있는 디지털 공동번영사회 원칙의 헌장
     </div>
   </div>
   
   <div class="para">
     <div class="para-title">
-      II. 디지털 권리장전
+      II. 디지털 권리장전의 주요내용
     </div>
     <div class="para-cntnt">
-      <div class="para">
-        <div class="para-title">
-          가. 디지털 권리장전의 아키텍처
-        </div>
-        <div class="para-cntnt">
-          <figure class="post-figure">
-            <img src="/assets/img/posts/디지털-권리장전.png" alt="디지털 권리장전">
-<!--            <figcaption>Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
-          </figure>
-        </div>
-      </div>
-      <div class="para">
-        <div class="para-title">
-          나. 디지털 권리장전의 구성요소
-        </div>
-        <div class="para-cntnt">
-          <table class="post-table">
-          </table>
+      <table class="post-table">
+        <thead>
+          <tr>
+            <th>구분</th>
+            <th>내용</th>
+            <th>설명</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5">기본원칙</td>
+            <td>자유와 권리 보장</td>
+            <td>- 모든 사람은 디지털 환경에서 자유와 권리 보장</td>
+          </tr>
+          <tr>
+            <td>공정 접근과 기회 균등</td>
+            <td>- 경쟁과 혁신기회 보장과 공통체가 혜택을 함께 향유</td>
+          </tr>
+          <tr>
+            <td>안전과 신뢰 확보</td>
+            <td>- 개인과 사회의 안전에 위협이 되지 않고 디지털 위험 대비</td>
+          </tr>
+          <tr>
+            <td>디지털 혁신 촉진</td>
+            <td>- 지속적 발전과 혁신을 장려하며 창의적 혁신 토대 마련</td>
+          </tr>
+          <tr>
+            <td>인류 후생 증진</td>
+            <td>- 국가간 디지털 격차 해소에 기여하며 국제사회와 연대</td>
+          </tr>
+        </tbody>
+      </table>
           5대원칙 자공안디인
   제 1조 / 자유, 권리 보장 자접표다개
     디지털 접근보장 - 키오스크 등에 차별없이 접근할 수 있어야 함
@@ -85,9 +92,6 @@ published: false
   인공지능 기본법
   디지털사회 기본법
 - 디지털 포용, 리터러시 &gt; 공동번영사회
-
-        </div>
-      </div>
     </div>
   </div>
 
